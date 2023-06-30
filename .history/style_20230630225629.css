@@ -1,0 +1,11 @@
+#gamecontainer {
+	position: absolute;
+	text-align: center;
+}
+#gameboard {
+	border: 3px solid;
+}
+#scoretext {
+	font-family: 'consolas' cursive;
+	font-size: 100px;
+}

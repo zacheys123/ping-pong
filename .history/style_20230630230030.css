@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+#gamecontainer {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+#gameboard {
+	border: 3px solid;
+}
+#scoretext {
+	font-family: 'consolas' cursive;
+	font-size: 100px;
+}
+#resetbutton {
+	font-family: 'monospace' cursive;
+	border-radius: 15px;
+    cursor-pointer;
+	width: 105px;
+	height: 30px;
+}
